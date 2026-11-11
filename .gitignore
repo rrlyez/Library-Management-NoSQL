@@ -1,0 +1,18 @@
+# Visual Studio / .NET
+.vs/
+**/bin/
+**/obj/
+*.user
+*.suo
+
+# Local secrets
+.env
+.env.*
+appsettings.Development.json
+secrets.json
+*.pfx
+*.key
+
+# Transient files
+*.tmp
+*.log
